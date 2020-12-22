@@ -65,6 +65,7 @@ cc_defaults {
     static_libs: ["libarect"],
 
     export_static_lib_headers: ["libarect"],
+    relative_install_path: "hw",
 }
 
 cc_defaults {
